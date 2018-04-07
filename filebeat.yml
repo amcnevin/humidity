@@ -2,7 +2,7 @@ filebeat.prospectors:
 
 - input_type: log
   paths:
-    - /Users/u099axm/dev/devops/data/*.txt
+    - <data_directory>/*.txt
 
   fields:
     app: devops
